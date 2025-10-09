@@ -66,10 +66,10 @@ print(f"het ingegeven jaar is ",jaar)
 l()
 
 
-naam="john"
-leeftijd=30
-print("ik heet {} en ben {} jaar oud")
+naam=input("geef naam" )
+leeftijd=input("leeftijd? ")
+print("jij heet {} en bent {} jaar oud")
 print("gevolgd door")
 print(".format(naam,leeftijd)")
-print("ik heet {} and ben {} jaar oud".format(naam,leeftijd))
+print("jij heet {} and bent {} jaar oud".format(naam,leeftijd))
 l()
