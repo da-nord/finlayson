@@ -161,6 +161,7 @@ def main():
     print("127 kies")
     print("name function arrived from minute of covering ")
     print(" ")
+    print("slicing 9")
     print("7--- 7")
     print("8--- 8")
     print("9---9")
