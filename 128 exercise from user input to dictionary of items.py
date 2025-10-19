@@ -3,14 +3,14 @@ def main():
     print(" ")
     print("\n Write a program in Python that uses a dictionary\n to store how many times each item has been seen. \n The program should ask the user to enter \n a list of items one at a time \n When the user has finished entering items \n the program should display a count of \n how many times each item was entered.")
     print("")
-    bunch = {}
+    bunch = {}#initialize
     print(f"bunch is an empty container now ", bunch)
     
     
     print("\n you will be asked to give an item for bunch for instance sheep ")
     while True:
         
-        item = input(f"Enter an item (or type 'stop' to finish): ")
+        item = input("Enter an item (or type 'stop' to finish): ")
         
         if item.lower() == 'stop':
             break
