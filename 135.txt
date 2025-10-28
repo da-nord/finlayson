@@ -1,0 +1,35 @@
+kiovoja python developer bootcamp 135
+https://academy.internetmadecoder.com/products/python-developer-bootcamp/categories/2153809056/posts/2171559272
+
+ASSIGNMENT 7 - sales_data_randomizer.py
+135.py
+
+sales_data.csv is attached to this lesson
+135.csv
+
+Objective:
+you've been hired by a company 
+make backups of original sales.csv in separate dir
+shuffle their sales records sales.csv
+randomize order of rows in sales.csv  
+every day at specific time 
+
+
+Tasks:
+1 use csv library read/write csv files
+2 use random library to shuffle rows except header
+3 use time library to wait and run randomizing operation every day at a specific time for sake of this assignment you can use shorter time span like 10 seconds to demonstrate functionality
+4 use the shutil library to copy original files to backup directory before randomizing them
+
+Steps:
+1 read  sales data from csv file
+2 use shutil to copy this original file to backup dir 
+3 shuffle rows of sales data using random.shuffle() function
+4 write shuffled data back to original csv file
+5 use time.sleep()to wait for certain duration (e.g. 10 seconds for demonstration purposes before repeating  operation
+6 make sure that you don't backup already randomized data you should keep track of whether you've already backed up today's file
+
+Extra Challenge:
+- add logging mechanism to log each time you perform shuffle and backup include timestamps and any errors that might occur
+- allow for the program to be configured for different csv files and backup intervals
+
